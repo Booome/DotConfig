@@ -283,6 +283,7 @@ exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id variety
 exec_always --no-startup-id albert
+exec_always --no-startup-id numlockx on
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
