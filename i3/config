@@ -29,6 +29,8 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec terminal
 bindsym $mod+Shift+Return exec terminal -e ranger
+bindsym $mod+Shift+i exec terminal -e ipython
+bindsym $mod+Shift+space exec terminal -e nvim
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -113,7 +115,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+# bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
 # bindsym $mod+space focus mode_toggle
@@ -278,11 +280,12 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id blueman-applet
+exec --no-startup-id variety
+exec --no-startup-id albert
+exec --no-startup-id setxkbmap -option ctrl:nocaps
 # exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-exec_always --no-startup-id variety
-exec_always --no-startup-id albert
 exec_always --no-startup-id numlockx on
 
 # Color palette used for the terminal ( ~/.Xresources file )

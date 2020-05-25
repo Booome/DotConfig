@@ -1,3 +1,5 @@
+set -x PATH $PATH /home/lee/.local/bin
+set -x TERM linux
 alias vim='nvim'
 set -x EDITOR nvim
 
