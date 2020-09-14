@@ -280,6 +280,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id blueman-applet
+exec --no-startup-id qv2ray
 exec --no-startup-id variety
 exec --no-startup-id albert
 exec --no-startup-id setxkbmap -option ctrl:nocaps
